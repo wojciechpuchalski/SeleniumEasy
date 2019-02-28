@@ -1,7 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Example test run">
     <test name="Simple Test">
-        <parameter name="url" value="http://www.google.com/"/>
+        <parameter name="appUrl" value="http://www.google.com/"/>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testScripts.GoogleHomePageTest"/>
         </classes>
